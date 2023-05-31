@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: justify;
+    padding: 20px;
+}
+
+main,
+footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+main {
+    background-color: #f0f0f0;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.hero {
+    background-image: url("biblioteca.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+.gallery img {
+    width: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form label,
+form input,
+form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.hero {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 100px;
+    color: #eeeeee;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero img {
+    height: 150px;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.article {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.article p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.card {
+    display: flex;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.small-image {
+    width: 200px;
+}
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.image-text {
+    font-size: 16px;
+    color: #555;
+}
+.image-container:last-child {
+    margin-right: 0;
+}
