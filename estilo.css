@@ -48,7 +48,7 @@ footer {
     text-align: center;
 }
 .hero {
-    background-image: url("biblioteca.jpg");
+    background-image: url("./imagens/biblioteca.jpg");
     background-size: cover;
     background-position: center;
 }
